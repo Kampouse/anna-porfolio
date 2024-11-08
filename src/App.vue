@@ -24,7 +24,13 @@
 }
 
 nav {
-  padding: 30px;
+  position: sticky;
+  top: 0; /* Почне "залипати", коли досягне верхньої частини екрана */
+  background-color: #1d7995;
+  color: white;
+  padding: 10px 20px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav a {

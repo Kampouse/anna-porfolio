@@ -1,6 +1,7 @@
 // src/i18n.js
 //import { h } from "vue";
 import { createI18n } from "vue-i18n";
+//import HireMe from "./components/HireMe.vue";
 
 // Повідомлення для різних мов
 const messages = {
@@ -11,6 +12,7 @@ const messages = {
       contact: "Contact",
       projects: "Projects",
       home: "Home",
+      hire: "Hire Me",
     },
   },
   fr: {
@@ -20,6 +22,7 @@ const messages = {
       contact: "Contact",
       projects: "Projets",
       home: "Accueil",
+      hire: "Engagez-moi",
     },
   },
   ua: {
@@ -29,6 +32,7 @@ const messages = {
       contact: "Контакт",
       projects: "Проекти",
       home: "Головна",
+      hire: "Найняти мене",
     },
   },
   de: {
@@ -38,6 +42,7 @@ const messages = {
       contact: "Kontakt",
       projects: "Projekte",
       home: "Zuhause",
+      hire: "Stellen Sie mich ein",
     },
   },
 };
