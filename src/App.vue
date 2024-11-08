@@ -1,7 +1,15 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <div class="language">
+      <button @click="changeLanguage('en')">EN</button>
+      <button @click="changeLanguage('fr')">FR</button>
+      <button @click="changeLanguage('ua')">UA</button>
+      <button @click="changeLanguage('de')">DE</button>
+    </div>
+    <router-link to="/">{{ $t("message.home") }}</router-link> |
+    <router-link to="/about">{{ $t("message.about") }}</router-link> |
+    <router-link to="/projects">{{ $t("message.projects") }}</router-link> |
+    <router-link to="/contact">{{ $t("message.contact") }}</router-link>
   </nav>
   <router-view />
 </template>
@@ -26,5 +34,25 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+</style>
+
+<script>
+export default {
+  methods: {
+    changeLanguage(locale) {
+      this.$i18n.locale = locale; // Змінюємо мову
+    },
+  },
+};
+</script>
+
+<style scoped>
+.language {
+  padding: 10px;
+}
+
+button {
+  margin: 0 5px;
 }
 </style>
