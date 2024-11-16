@@ -23,3 +23,21 @@ async function testCalDavConnection() {
 }
 
 testCalDavConnection();
+
+// testCalDav.js
+const { Client } = require("dav");
+
+async function fetchCalendars() {
+  const client = new Client({
+    // Ваші налаштування для CalDAV
+  });
+
+  try {
+    const calendars = await client.getCalendars(); // Функція для отримання календарів
+    return calendars;
+  } catch (error) {
+    throw new Error("Failed to fetch calendars: " + error.message);
+  }
+}
+
+module.exports = fetchCalendars;
