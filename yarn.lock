@@ -3383,6 +3383,15 @@
     "whatwg-mimetype" "^2.3.0"
     "whatwg-url" "^8.0.0"
 
+"dav@^1.8.0":
+  "integrity" "sha512-bXxosIeImCcaHgn9gtdVKeAazUJhGeZ2lIy4wtHamBmMvAfG5aSAkSada3u6ZcOcBpLl1f8Zs5kj7m5uUAM4vg=="
+  "resolved" "https://registry.npmjs.org/dav/-/dav-1.8.0.tgz"
+  "version" "1.8.0"
+  dependencies:
+    "co" "^4.6.0"
+    "xmldom" "^0.1.19"
+    "xmlhttprequest" "^1.7.0"
+
 "debounce@^1.2.1":
   "integrity" "sha512-XRRe6Glud4rd/ZGQfiV1ruXSfbvfJedlV9Y6zOlP+2K04vBYiJEte6stfFkCP03aMnY5tsipamumUjL14fofug=="
   "resolved" "https://registry.npmjs.org/debounce/-/debounce-1.2.1.tgz"
@@ -8280,6 +8289,16 @@
   "integrity" "sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw=="
   "resolved" "https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz"
   "version" "2.2.0"
+
+"xmldom@^0.1.19":
+  "integrity" "sha512-yS2uJflVQs6n+CyjHoaBmVSqIDevTAWrzMmjG1Gc7h1qQ7uVozNhEPJAwZXWyGQ/Gafo3fCwrcaokezLPupVyQ=="
+  "resolved" "https://registry.npmjs.org/xmldom/-/xmldom-0.1.31.tgz"
+  "version" "0.1.31"
+
+"xmlhttprequest@^1.7.0":
+  "integrity" "sha512-58Im/U0mlVBLM38NdZjHyhuMtCqa61469k2YP/AaPbvCoV9aQGUpbJBj1QRm2ytRiVQBD/fsw7L2bJGDVQswBA=="
+  "resolved" "https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz"
+  "version" "1.8.0"
 
 "y18n@^5.0.5":
   "integrity" "sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA=="
