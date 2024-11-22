@@ -4,12 +4,6 @@
   <HireMe />
   <CalendarView />
 </template>
-
-
-
-
-
-
 <script>
 import ContactForm from "@/components/ContactForm.vue";
 import HireMe from "@/components/HireMe.vue";
