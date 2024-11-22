@@ -1,20 +1,26 @@
 <template>
-  <div class="contact">
-    <h1>This is a contact page</h1>
-    <ContactForm />
-    <HireMe />
-  </div>
+  <ContactForm />
+  <CalendarReservation />
+  <HireMe />
+  <CalendarView />
 </template>
 
+
+
+
+
+
 <script>
-// @ is an alias to /src
 import ContactForm from "@/components/ContactForm.vue";
 import HireMe from "@/components/HireMe.vue";
+// eslint-disable-next-line no-unused-vars
+import CalendarReservation from "../components/CalendarReservation.vue";
 export default {
   name: "ContactsView",
   components: {
     ContactForm,
     HireMe,
+    CalendarReservation,
   },
 };
 </script>
